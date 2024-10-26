@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1258</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Currency Convertr</h1>
+      <input id="input" placeholder="enter amount" type="number" />
+      <p id="error">Miqdor kiriting</p>
+      <div class="wrapper-select">
+        <div class="form">
+          <p>Form</p>
+          <img id="from-img" src="https://flagcdn.com/24x18/uz.png" alt="" />
+          <select id="form_select" >
+          </select>
+        </div>
+        <i class="fa-solid fa-arrow-right-arrow-left"></i>
+        <div class="to">
+          <p>To</p>
+          <img id="to-img" src="https://flagcdn.com/24x18/us.png" alt="" />
+
+          <select name="" id="to_select">
+          </select>
+        </div>
+      </div>
+
+      <h3 id="result" ></h3>
+
+      <button id="btn" >Get Exchange rate</button>
+
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
